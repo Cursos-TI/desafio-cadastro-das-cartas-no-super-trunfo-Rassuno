@@ -43,7 +43,7 @@ int main() {
     printf("Número de pontos turísticos: "); 
     scanf("%d", &pturisticos2);
     
-     printf("\nCarta1\nCidade: %s\nEstado: %s\nCódigo: %s01\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\n", 
+    printf("\nCarta1\nCidade: %s\nEstado: %s\nCódigo: %s01\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\n", 
         Cidade, Estado, Estado, População, Área, PIB, pturisticos);
 
     printf("\nCarta2\nCidade: %s\nEstado: %s\nCódigo: %s02\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\n", 
