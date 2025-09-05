@@ -49,10 +49,10 @@ int main() {
     PPCapta2 = (float) PIB2 / Populacao2;
     DensiPop2 = (float) Populacao2 / Area2;
 
-    printf("\nCarta1\nCidade: %s\nEstado: %s\nCódigo: %s01\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per capta: %.2f\n", 
+    printf("\nCarta1\nCidade: %s\nEstado: %s\nCódigo: %s01\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per Capita: %.2f\n", 
         Cidade, Estado, Estado, Populacao, Area, PIB, pturisticos, DensiPop, PPCapta);
 
-    printf("\nCarta2\nCidade: %s\nEstado: %s\nCódigo: %s02\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per capta: %.2f\n",
+    printf("\nCarta2\nCidade: %s\nEstado: %s\nCódigo: %s02\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per Capita: %.2f\n",
         Cidade2, Estado2, Estado2, Populacao2, Area2, PIB2, pturisticos2, DensiPop2, PPCapta2);
 
     return 0;
